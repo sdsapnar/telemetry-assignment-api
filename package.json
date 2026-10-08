@@ -1,0 +1,28 @@
+{
+  "name": "telemetry-controller-api",
+  "version": "1.0.0",
+  "description": "Embedded Controller Live Telemetry & Navigation Service",
+  "author": "Sopan Sapnar",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:production": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
